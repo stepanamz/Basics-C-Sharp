@@ -10,7 +10,15 @@
 // Console.WriteLine(sum);
 
 // Деление с дробной частью
-double numberA = 12;
-double numberB = 5;
-double sum = numberA / numberB;
-Console.WriteLine(sum);
+// double numberA = 12;
+// double numberB = 5;
+// double sum = numberA / numberB;
+// Console.WriteLine(sum);
+
+// Случайные числа сложение
+int numberA = new Random().Next(1,10); // случаное целое число от 1 до 9
+Console.Write(numberA + " + ");
+int numberB = new Random().Next(1,10);; // случаное целое число от 1 до 9
+Console.Write(numberB);
+int sum = numberA + numberB;
+Console.WriteLine(" = " + sum);
