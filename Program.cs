@@ -16,9 +16,24 @@
 // Console.WriteLine(sum);
 
 // Случайные числа сложение
-int numberA = new Random().Next(1,10); // случаное целое число от 1 до 9
-Console.Write(numberA + " + ");
-int numberB = new Random().Next(1,10);; // случаное целое число от 1 до 9
-Console.Write(numberB);
-int sum = numberA + numberB;
-Console.WriteLine(" = " + sum);
+// int numberA = new Random().Next(1,10); // случаное целое число от 1 до 9
+// Console.Write(numberA + " + ");
+// int numberB = new Random().Next(1,10);; // случаное целое число от 1 до 9
+// Console.Write(numberB);
+// int sum = numberA + numberB;
+// Console.WriteLine(" = " + sum);
+
+
+Console.Write("Введите имся пользователя: ");
+string username = Console.ReadLine();
+
+if(username.ToLower() == "Маша")
+{
+    Console.WriteLine("Ура это же МАША !");
+
+}
+else {
+
+    Console.Write("Привет, " + username);
+
+}
